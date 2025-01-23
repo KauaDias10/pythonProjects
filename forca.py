@@ -49,8 +49,8 @@ while tentativasErradas < limiteTentativas:
                 progresso[i] = char
     else:
         print(f"A letra '{letra}' não está na palavra.")
-        tentativasErradas += 1  # Incrementa o contador de tentativas erradas
-
+        tentativasErradas += 1  
+        
     # Exibe o progresso atual da palavra
     print(f"Progresso: {' '.join(progresso)}")
     print(f"Letras usadas: {''.join(letrasUsadas)}")
