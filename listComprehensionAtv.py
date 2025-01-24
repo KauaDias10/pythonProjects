@@ -12,8 +12,7 @@
 # print(matriz)
 
 #d) Combine duas listas ([1, 2, 3] e [4, 5, 6]) em pares ordenados, formando uma lista como [(1, 4), (2, 5), (3, 6)].
-
-lista1 = [1,2,3]
-lista2 = [4,5,6]
-pares = [(a,b) for a, b in zip(lista1, lista2)]
-print(pares)
+#lista1 = [1,2,3]
+#lista2 = [4,5,6]
+#pares = [(a,b) for a, b in zip(lista1, lista2)]
+#print(pares)
