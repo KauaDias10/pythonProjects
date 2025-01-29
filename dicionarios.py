@@ -32,8 +32,3 @@ empregados = {'01':['João Silva'],
 #
 #chaves = dias.keys()
 #print(type(chaves)) 
-
-import copy
-
-dias_copy = copy.deepcopy(dias)
-dias_copy['Dom'] = 'Domingo'
